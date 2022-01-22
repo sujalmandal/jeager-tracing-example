@@ -1,0 +1,8 @@
+zuul:
+  routes:
+    a:
+      path: /a/**
+      url: http://localhost:8001/a/
+    b:
+      path: /b/**
+      url: http://localhost:8000/b/
